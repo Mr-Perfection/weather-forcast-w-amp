@@ -8,4 +8,8 @@ Here, I will be building weather forcast application using forcast.io API and Go
 $ rails new . -T # T extension prevents to create test files.
 - created controller using this command:
 $ rails generate controller static_pages home show play
+- Heroku setup
+$ heroku login
+$ git init
+$ heroku git:remote -a yourapp
 ```
