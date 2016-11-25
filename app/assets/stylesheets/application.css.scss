@@ -26,6 +26,23 @@ h1, h2, h3, h4, p{
 h1 {
 	font-size: 3em;
 }
+#header {
+  -webkit-animation-duration: 3s;
+  -webkit-animation-delay: 0s;
+  -webkit-animation-iteration-count: 1;
+  -moz-animation-duration: 3s;
+  -moz-animation-delay: 0s;
+  -moz-animation-iteration-count: 1;
+
+}
+#today-weather-is {
+	-webkit-animation-duration: 3s;
+	-webkit-animation-delay: 1s;
+	-webkit-animation-iteration-count: 1;
+	-moz-animation-duration: 3s;
+	-moz-animation-delay: 1s;
+	-moz-animation-iteration-count: 1;
+}
 
 
 html {
