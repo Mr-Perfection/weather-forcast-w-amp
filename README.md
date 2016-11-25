@@ -6,6 +6,21 @@ Here, I will be building weather forcast application using forcast.io API and Go
 * demo link here:
 [Weather Forcast](https://weather-forcast-amp.herokuapp.com) - click this link.
 
+## Getting Started
+```
+- created the rails application using the following command:
+$ rails new . -T # T extension prevents to create test files.
+- created controller using this command:
+$ rails generate controller static_pages home show play
+- Heroku setup
+$ heroku login
+$ git init
+$ heroku git:remote -a yourapp
+$ git add .
+$ git commit -am "make it better"
+$ git push heroku master
+```
+
 ## Versions
 
 ### Rails 5.0
@@ -26,23 +41,11 @@ https://github.com/darkskyapp/forecast-ruby
 ### Version 1.08 (cool animations)
 ```
 - Used animated.css to learn how to make the website more interactive and fun.
-- need to work on: application.js (jQuery function) and learn how to use it.
+- Modified application.js to tweak customized class (animateCss) to add delay and duration.
+- Created custom fadein animations.
 ```
 
-### Version 1.00 (initial setup)
-```
-- created the rails application using the following command:
-$ rails new . -T # T extension prevents to create test files.
-- created controller using this command:
-$ rails generate controller static_pages home show play
-- Heroku setup
-$ heroku login
-$ git init
-$ heroku git:remote -a yourapp
-$ git add .
-$ git commit -am "make it better"
-$ git push heroku master
-```
+
 
 ## Authors
 [Stephen Lee](http://www.stephenslee.xyz) -the hacker that dreams big.

@@ -1,6 +1,12 @@
 <h1 class="text-center" id="header"><strong>Weather Forcast</strong></h1>
-<h2 id="today-weather-is"> Today's weather is:</h2>
+<h2 class="text-center" id="today-weather-is"> Today's weather (<%= DateTime.now.strftime('%m/%d/%Y')%>)</h2>
+<div class="text-center">
+	<p class="fade-in one">Condition: <%= @summary%></p>
+	<p class="fade-in two">Temperature: <%= @temperature%> &deg;C</p>
+	<p class="fade-in three">Timezone: <%= @timezone%></p>
+</div>
+
 <script>
 	$('#header').animateCss('bounceInDown');
-	$('#today-weather-is').animateCss('bounceInDown');
+	$('#today-weather-is').animateCss('bounceInDown');	
 </script>
