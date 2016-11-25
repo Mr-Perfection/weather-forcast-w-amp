@@ -1,0 +1,12 @@
+<h1 class="text-center" id="header"><strong>Weather Forcast</strong></h1>
+<h2 class="text-center" id="today-weather-is"> Today's weather (<%= sanitize DateTime.now.strftime('%m/%d/%Y'), scrubber: AmpScrubber.new%>)</h2>
+<div class="text-center">
+	<p class="fade-in one">Condition: <%= sanitize @summary, scrubber: AmpScrubber.new%></p>
+	<p class="fade-in two">Temperature: <%= sanitize @temperature, scrubber: AmpScrubber.new%> &deg;C</p>
+	<p class="fade-in three">Timezone: <%= sanitize @timezone, scrubber: AmpScrubber.new%></p>
+</div>
+
+<script>
+	$('#header').animateCss('bounceInDown');
+	$('#today-weather-is').animateCss('bounceInDown');	
+</script>

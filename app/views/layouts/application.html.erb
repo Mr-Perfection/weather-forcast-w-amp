@@ -2,8 +2,10 @@
 <html>
   <head>
     <title>Wecast</title>
+    <!-- let google to index your page -->
+    <link rel="canonical" href="<%= url_for(format: :html, only_path: false) %>" >
+	<link rel="amphtml" href="<%= url_for(format: :amp, only_path: false) %>" >
     <%= csrf_meta_tags %>
-	<link rel="stylesheet" href="animate.min.css">
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
