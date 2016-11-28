@@ -113,33 +113,4 @@ body {
 	border: none;
 }
 
-.navbar-brand {
-	text-transform: uppercase;
-	letter-spacing: -1px;
-	font-size: 2em;
-	font-weight: 300;
-	color: #1D976C !important;
-}
 
-#jobs {
-	.job {
-		padding: 1em 0;
-		border-bottom: 1px solid rgba(250,250,250, 0.5);
-		h2 {
-			font-size: 2.5em;
-			font-weight: 300;
-			margin-bottom: 0;
-			color: white;
-			a {
-				color: white;
-			}
-		}
-		p {
-			color: rgba(250,250,250, 0.5);
-		}
-	}
-}
-
-#links {
-	margin-top: 2em;
-}
