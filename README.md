@@ -7,6 +7,9 @@ Here, I will be building weather forcast application using forcast.io API and Go
 [Weather Forcast](https://weather-forcast-amp.herokuapp.com) - click this link.
 * if you want to view the amp page, browse https://weather-forcast-amp.herokuapp.com/static_pages/home.amp
 
+
+![Alt text](/demo.png?raw=true "from my this project")
+
 ## Getting Started
 ```
 - created the rails application using the following command:
