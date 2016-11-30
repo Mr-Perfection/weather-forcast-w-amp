@@ -5,7 +5,7 @@
 Here, I will be building weather forcast application using forcast.io API and Google AMP for mobile page loading speed. The objective of this demo is to learn how to use weather forcast API and primarily focused on Google AMP.
 * demo link here:
 [Weather Forcast](https://weather-forcast-amp.herokuapp.com) - click this link.
-* if you want to view the amp page, browse https://weather-forcast-amp.herokuapp.com/static_pages/home.amp
+
 
 
 ![Alt text](/demo.png?raw=true "from my this project")
